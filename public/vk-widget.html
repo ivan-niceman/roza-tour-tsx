@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="vk_groups"></div>
+    <script
+      type="text/javascript"
+      src="https://vk.com/js/api/openapi.js?168"
+    ></script>
+    <script type="text/javascript">
+      VK.Widgets.Group(
+        'vk_groups',
+        {
+          mode: 4,
+          wide: 1,
+          width: 'auto',
+          height: 600,
+          color1: 'FFFFFF',
+          color2: '000000',
+          color3: '5181B8',
+        },
+        38567056,
+      );
+    </script>
+  </body>
+</html>
