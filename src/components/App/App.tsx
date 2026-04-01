@@ -25,7 +25,7 @@ import Neolit from '../Neolit/Neolit';
 import Kabardinka from '../Kabardinka/Kabardinka';
 import HotelRoyal from '../HotelRoyal/HotelRoyal';
 import Lakis from '../Lakis/Lakis';
-// import Doob from '../Doob/Doob';   !!!
+import Doob from '../Doob/Doob';
 // import Edem from '../Edem/Edem';   !!!
 // Divnomorskoye
 import Divnomorskoye from '../Divnomorskoye/Divnomorskoye';
@@ -103,10 +103,10 @@ export default function App() {
             path="/bus-tours/kabardinka/lakis"
             element={<Lakis onOpenAdvice={openAdvice} />}
           />
-          {/* <Route
+          <Route
             path="/bus-tours/kabardinka/doob"
             element={<Doob onOpenAdvice={openAdvice} />}
-            /> */}
+          />
           {/* <Route
             path="/bus-tours/kabardinka/edem"
             element={<Edem onOpenAdvice={openAdvice} />}
