@@ -20,6 +20,7 @@ import SpaTreatment from '../SpaTreatment/SpaTreatment';
 // Gelendzhik
 import Gelendzhik from '../Gelendzhik/Gelendzhik';
 import Neolit from '../Neolit/Neolit';
+import Kiulait from '../Kiulait/Kiulait';
 // import Olina from '../Olina/Olina';  !!!
 // Kabardinka
 import Kabardinka from '../Kabardinka/Kabardinka';
@@ -40,6 +41,9 @@ import SouthCarolina from '../SouthCarolina/SouthCarolina';
 import Lermontovo from '../Lermontovo/Lermontovo';
 import Brillianite1 from '../Brillianite1/Brillianite1';
 import Brillianite2 from '../Brillianite2/Brillianite2';
+// Dzhubga
+import Dzhubga from '../Dzhubga/Dzhubga';
+import Leodimas from '../Leodimas/Leodimas';
 //
 import SocialList from '../SocialList/SocialList';
 import PopUp from '../PopUp/PopUp';
@@ -86,6 +90,10 @@ export default function App() {
           <Route
             path="/bus-tours/gelendzhik/neolit"
             element={<Neolit onOpenAdvice={openAdvice} />}
+          />
+          <Route
+            path="/bus-tours/gelendzhik/kiulait"
+            element={<Kiulait onOpenAdvice={openAdvice} />}
           />
           {/* <Route
             path="/bus-tours/gelendzhik/olina"
@@ -150,6 +158,14 @@ export default function App() {
           <Route
             path="/bus-tours/lermontovo/brillianite-2"
             element={<Brillianite2 onOpenAdvice={openAdvice} />}
+          />
+          <Route
+            path="/bus-tours/dzhubga"
+            element={<Dzhubga onOpenAdvice={openAdvice} />}
+          />
+          <Route
+            path="/bus-tours/dzhubga/leodimas"
+            element={<Leodimas onOpenAdvice={openAdvice} />}
           />
           <Route
             path="/group-tours"

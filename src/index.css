@@ -940,7 +940,12 @@ button:focus-visible {
     font-size: 24px;
   }
 
+  .bus-tours-num {
+    font-size: 12px;
+  }
+
   .bus-tours-title,
+  .bus-tours-num,
   .world-tour-title,
   .group-tour-title,
   .about-title,
@@ -948,10 +953,6 @@ button:focus-visible {
   .contacts-title {
     text-align: center;
   }
-}
-
-.bus-tours-num {
-  font-size: 12px;
 }
 
 .bus-tours-map {

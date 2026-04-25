@@ -59,6 +59,13 @@ const busToursData: BusTourItem[] = [
     link: '/bus-tours/lermontovo',
     cityId: 'lermontovo',
   },
+  {
+    name: 'Джубга',
+    image: './images/bus-tours/bus-6.webp',
+    price: 'от 16 400 рублей',
+    link: '/bus-tours/dzhubga',
+    cityId: 'dzhubga',
+  },
 ];
 
 export default function BusTours({ onOpenAdvice }: BusToursProps) {
