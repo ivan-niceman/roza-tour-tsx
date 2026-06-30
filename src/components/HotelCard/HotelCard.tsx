@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 interface HotelCardProps {
   name: string;
   image: string;
-  location: React.ReactNode; // Используем ReactNode, чтобы можно было вставлять <br> и <i>
+  location: React.ReactNode;
   accommodation: React.ReactNode;
   meal: React.ReactNode;
   beach: React.ReactNode;
@@ -11,6 +11,7 @@ interface HotelCardProps {
   link: string;
   onOpenAdvice: () => void;
   hideButtons?: boolean;
+  specialBadge?: string;
 }
 
 export default function HotelCard(props: HotelCardProps) {
@@ -18,6 +19,9 @@ export default function HotelCard(props: HotelCardProps) {
     <div className="bus-tours-hotel-grid">
       <div className="bus-tours-hotel-image">
         <h3 className="hotel-name">{props.name}</h3>
+        {!props.hideButtons && props.specialBadge && (
+          <p className="bus-tours-edelweiss-special">{props.specialBadge}</p>
+        )}
         <img src={props.image} alt={props.name} className="hotel-image" />
         {!props.hideButtons && (
           <button className="hotel-book-button" onClick={props.onOpenAdvice}>

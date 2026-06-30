@@ -3,16 +3,17 @@ export type Hotel = {
   city: string;
   cityName: string;
   cityPath: string;
-  cityDescription: React.ReactNode;
+  cityDescription: React.ReactNode | string;
   name: string;
   registryNumber?: string;
   image: string;
   link: string;
   location: string;
-  accommodation: React.ReactNode;
+  accommodation: React.ReactNode | string;
   meal: string;
   beach: string;
-  description?: string;
+  description?: React.ReactNode | string;
+  specialBadge?: string;
 };
 
 const CITIES = {
@@ -256,7 +257,7 @@ export const ALL_HOTELS: Hotel[] = [
     meal: 'столовые и кафе в шаговой доступности от гостевого дома.',
     beach: 'галечный, 300 метров от гостевого дома (5 минут ходьбы).',
     description:
-      'на этаже: гладильная доска, утюг, микроволновая печь, Wi-Fi на всей территории.',
+      'бассейн с подогревом. На этаже: гладильная доска, утюг, микроволновая печь, Wi-Fi на всей территории.',
   },
   {
     ...CITIES.novomikhailovsky,
@@ -271,7 +272,9 @@ export const ALL_HOTELS: Hotel[] = [
       '2-х, 3-х, 4-х местные номера со всеми удобствами. В каждом номере душ, туалет, холодильник, телевизор, кондиционер, необходимый набор мебели.',
     meal: 'имеется оборудованная кухня для самостоятельного приготовления пищи.',
     beach: 'мелкогалечный, 500 метров от отеля (10 минут пешком).',
-    description: 'двор с местами для отдыха, беседкой и мангалом, Wi-Fi.',
+    description:
+      'бассейн с подогревом, двор с местами для отдыха, беседкой и мангалом, Wi-Fi.',
+    specialBadge: 'бассейн с подогревом',
   },
   {
     ...CITIES.novomikhailovsky,

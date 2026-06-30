@@ -14,6 +14,9 @@ const galleryImages = [
   '/images/bus-tours/Divnomorskoye/layt/8.webp',
   '/images/bus-tours/Divnomorskoye/layt/9.webp',
   '/images/bus-tours/Divnomorskoye/layt/10.webp',
+  '/images/bus-tours/Divnomorskoye/layt/11.webp',
+  '/images/bus-tours/Divnomorskoye/layt/12.webp',
+  '/images/bus-tours/Divnomorskoye/layt/13.webp',
 ].map((src, index) => ({
   src,
   alt: `гостиница «ЛАЙТ» — фото ${index + 1}`,

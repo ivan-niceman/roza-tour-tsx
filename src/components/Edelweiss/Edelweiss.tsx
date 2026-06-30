@@ -5,6 +5,9 @@ import { ALL_HOTELS, getCityData } from '../../constants/hotels';
 
 const galleryImages = [
   '/images/bus-tours/Novomikhailovsky/edelweiss/1.jpg',
+  '/images/bus-tours/Novomikhailovsky/edelweiss/2.1.jpg',
+  '/images/bus-tours/Novomikhailovsky/edelweiss/3.1.jpg',
+  '/images/bus-tours/Novomikhailovsky/edelweiss/4.1.jpg',
   '/images/bus-tours/Novomikhailovsky/edelweiss/2.jpg',
   '/images/bus-tours/Novomikhailovsky/edelweiss/3.jpg',
   '/images/bus-tours/Novomikhailovsky/edelweiss/4.jpg',
@@ -12,7 +15,7 @@ const galleryImages = [
   '/images/bus-tours/Novomikhailovsky/edelweiss/6.jpg',
   '/images/bus-tours/Novomikhailovsky/edelweiss/7.jpg',
   '/images/bus-tours/Novomikhailovsky/edelweiss/8.jpg',
-  '/images/bus-tours/Novomikhailovsky/edelweiss/10.jpg', // 9 пропущен
+  '/images/bus-tours/Novomikhailovsky/edelweiss/10.jpg',
   '/images/bus-tours/Novomikhailovsky/edelweiss/11.jpg',
   '/images/bus-tours/Novomikhailovsky/edelweiss/12.jpg',
   '/images/bus-tours/Novomikhailovsky/edelweiss/13.jpg',
@@ -51,6 +54,7 @@ export default function Edelweiss({
   return (
     <div className="hotel-container container">
       <h1 className="bus-tours-title">{hotel.name}</h1>
+      <p className="bus-tours-edelweiss-special">теперь с бассейном</p>
 
       {hotel.registryNumber && (
         <p className="bus-tours-num">

@@ -88,16 +88,9 @@ export default function Header({ onOpenAdvice }: HeaderProps) {
               г. Белгород, Гражданский проспект 4, офис 8
             </address>
             <div className="work-time">
-              <p className="address-work-time">
-                Друзья, обращаем Ваше внимание на изменение графика работы
-                офиса:
-              </p>
-              <p className="address-work-time">
-                со 2 марта пн - пт 10:00 - 18:00
-              </p>
-              <p className="address-work-time">
-                до 27 февраля работаем в офисе только по предварительной записи
-              </p>
+              <p className="address-work-time">Будние дни с 10:00 до 19:00</p>
+              <p className="address-work-time">Суббота с 10:00 до 16:00</p>
+              <p className="address-work-time">Воскресенье выходной</p>
             </div>
           </span>
         </div>

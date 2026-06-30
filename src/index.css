@@ -2323,3 +2323,12 @@ textarea.form-textarea::placeholder {
     stroke-dashoffset: 0;
   }
 }
+
+.hotel-subtitle-edelweiss {
+  color: #FE6F09;
+}
+
+.bus-tours-edelweiss-special {
+  color: #FE6F09;
+  font-size: 18px;
+}
