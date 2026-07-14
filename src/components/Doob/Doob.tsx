@@ -19,6 +19,10 @@ const galleryImages = [
   '/images/bus-tours/Cabardinka/doob/13.webp',
   '/images/bus-tours/Cabardinka/doob/14.webp',
   '/images/bus-tours/Cabardinka/doob/15.webp',
+  '/images/bus-tours/Cabardinka/doob/16.webp',
+  '/images/bus-tours/Cabardinka/doob/17.webp',
+  '/images/bus-tours/Cabardinka/doob/18.webp',
+  '/images/bus-tours/Cabardinka/doob/19.webp',
 ].map((src, index) => ({
   src,
   alt: `Гостевой дом «ДООБ» — фото ${index + 1}`,
