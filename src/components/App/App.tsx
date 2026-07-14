@@ -32,6 +32,7 @@ import Doob from '../Doob/Doob';
 import Divnomorskoye from '../Divnomorskoye/Divnomorskoye';
 import Avangard from '../Avangard/Avangard';
 import Layt from '../Layt/Layt';
+import Kiparis from '../Kiparis/Kiparis';
 // Novomikhailovsky
 import Novomikhailovsky from '../Novomikhailovsky/Novomikhailovsky';
 import Edelweiss from '../Edelweiss/Edelweiss';
@@ -130,6 +131,10 @@ export default function App() {
           <Route
             path="/bus-tours/divnomorskoye/layt"
             element={<Layt onOpenAdvice={openAdvice} />}
+          />
+          <Route
+            path="/bus-tours/divnomorskoye/kiparis"
+            element={<Kiparis onOpenAdvice={openAdvice} />}
           />
           <Route
             path="/bus-tours/novomikhailovsky"
